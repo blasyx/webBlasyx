@@ -1,0 +1,122 @@
+
+
+/* ------------------------- HEAD ------------------------- */
+
+@font-face{
+font-family: 'head';
+src: url('../assets/font/Anodina-ExtraLight.otf')
+}
+
+@font-face{
+font-family: "description";
+src: url('../assets/font/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+:root{
+--black: #1a1a1a;
+}
+.menu_head{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-start;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+transition: all 500ms;
+}
+
+.menu_head_text {
+font-family: 'head';
+font-size: 4em;
+margin-top: -40px;
+margin-right: -4px;
+transition: all 500ms;
+z-index: 100;
+}
+.menu_head_text2 {
+    font-family: 'head';
+    color: white;
+    font-size: 4em;
+    margin-top: -40px;
+    margin-right: 300px;
+    transition: all 500ms;
+    z-index: 100;
+    }
+
+.menu_head_description{
+font-family: 'description';
+font-size: 3vh;
+padding-left: 20px;
+color: red;
+transform: translateY(-30px);
+transition: all 300ms;
+z-index: 100;
+}
+.menu_head_description2{
+    margin-right: 200px;
+}
+
+.menu_frontend_circle{
+width: 100px;
+height: 100px;
+background: red;
+bottom: 50px;
+left: 50px;
+position: absolute;
+border-radius: 100%;
+transition: all 300ms;
+}
+.menu_head_background{
+width: 100px;
+height: 100px;
+background: var(--black);
+top: -150px;
+right: -150px;
+position: absolute;
+border-radius: 100%;
+transition: all 300ms;
+}
+.menu_head_background2{
+    width: 500px;
+    height: 500px;
+    background: var(--black);
+    top: -150px;
+    right: 150px;
+    position: absolute;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+
+
+:hover.menu_head .menu_head_background{
+width: 500px;
+height: 500px;
+top: -200px;
+}
+:hover.menu_head .menu_head_text{
+color: white;
+transform: translateY(30px);
+}
+:hover.menu_head .menu_head_description{
+transform: translateY(8px);
+}
+
+
+@media only screen and (max-width: 500px){
+    
+    .menu_frontend_circle{
+        width: 80px;
+        height: 80px;
+        background: red;
+        bottom: 25vh;
+        left: 65vw;
+        position: absolute;
+        border-radius: 100%;
+        transition: all 300ms;
+        }
+
+
+
+
+}

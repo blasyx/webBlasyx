@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import './styles/general.css'
+import Art from './components/Art';
+import Frontend from './components/Frontend';
+import Head from './components/Head';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
+/* import './interactions/interaction1'; */
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <>
+  <div className='menu_conteiner'>
+    <Art />
+    <Frontend />
+    <Head />
+    <Contact />
+    <Blog />
+  </div>  
+  </>,
+
+document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+

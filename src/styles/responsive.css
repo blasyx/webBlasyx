@@ -1,0 +1,14 @@
+
+
+@media only screen and (max-width: 500px){
+
+    .menu_conteiner {
+        display: grid;
+        grid-template: "menu_art" 50vh
+                        "menu_frontend" 50vh
+                        "menu_head" 50vh
+                        "menu_contact" 50vh
+    }
+
+   
+}

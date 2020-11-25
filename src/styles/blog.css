@@ -1,0 +1,46 @@
+
+
+@font-face{
+    font-family: "text";
+    src: url('../assets/font/RobotoMono-ExtraLight.ttf');
+}
+
+
+
+.blog_conteiner{
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    width: 60vw;
+    padding: 30px;
+    right: 30px;
+    overflow: auto;
+    transition: all 300ms;
+}
+.show_blog{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    width: 60vw;
+    padding: 30px;
+    right: 30px;
+    overflow: auto;
+    transition: all 300ms; 
+  }
+
+
+.blog_title{
+    font-family: text;
+    text-align: center;
+    padding: 5px;
+}
+
+.blog_text{
+    font-family: text;
+    text-align: center;
+    padding: 5px;
+}
