@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/webBlasyx/static/css/main.060ad554.chunk.css",
-    "main.js": "/webBlasyx/static/js/main.09f470c4.chunk.js",
-    "main.js.map": "/webBlasyx/static/js/main.09f470c4.chunk.js.map",
+    "main.css": "/webBlasyx/static/css/main.40d1aa06.chunk.css",
+    "main.js": "/webBlasyx/static/js/main.c0ff16f9.chunk.js",
+    "main.js.map": "/webBlasyx/static/js/main.c0ff16f9.chunk.js.map",
     "runtime-main.js": "/webBlasyx/static/js/runtime-main.9c8a9657.js",
     "runtime-main.js.map": "/webBlasyx/static/js/runtime-main.9c8a9657.js.map",
     "static/js/2.caa46bb7.chunk.js": "/webBlasyx/static/js/2.caa46bb7.chunk.js",
     "static/js/2.caa46bb7.chunk.js.map": "/webBlasyx/static/js/2.caa46bb7.chunk.js.map",
     "index.html": "/webBlasyx/index.html",
-    "static/css/main.060ad554.chunk.css.map": "/webBlasyx/static/css/main.060ad554.chunk.css.map",
+    "static/css/main.40d1aa06.chunk.css.map": "/webBlasyx/static/css/main.40d1aa06.chunk.css.map",
     "static/js/2.caa46bb7.chunk.js.LICENSE.txt": "/webBlasyx/static/js/2.caa46bb7.chunk.js.LICENSE.txt",
     "static/media/head.css": "/webBlasyx/static/media/Anodina-ExtraLight.1707924a.otf",
     "static/media/art.css": "/webBlasyx/static/media/Goffik-O.35532c72.ttf",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.9c8a9657.js",
     "static/js/2.caa46bb7.chunk.js",
-    "static/css/main.060ad554.chunk.css",
-    "static/js/main.09f470c4.chunk.js"
+    "static/css/main.40d1aa06.chunk.css",
+    "static/js/main.c0ff16f9.chunk.js"
   ]
 }
